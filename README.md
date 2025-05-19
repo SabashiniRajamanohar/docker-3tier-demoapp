@@ -5,16 +5,6 @@ node.js backend and a simple frontend form.
 
 ---
 
-## Prerequisites ##
-Before you begin, make sure you have the following installed:
-
-   . Docker
-
-   
-   . Git (optional, for cloning the repository)
-
----
-
 ## Feartures
 
 - simple frontend form for user registration
