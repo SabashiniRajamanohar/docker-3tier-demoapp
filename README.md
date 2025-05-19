@@ -53,7 +53,7 @@ node.js backend and a simple frontend form.
 
 5. Run the following Command to build and start the containers.
    ```bash
-   docker build -t node.js
+   docker build -t node.js . 
    docker compose -f compose.yaml up 
 
 6. Ports Running:
