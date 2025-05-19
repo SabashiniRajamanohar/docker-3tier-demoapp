@@ -9,6 +9,8 @@ node.js backend and a simple frontend form.
 Before you begin, make sure you have the following installed:
 
    . Docker
+
+   
    . Git (optional, for cloning the repository)
 
 ---
