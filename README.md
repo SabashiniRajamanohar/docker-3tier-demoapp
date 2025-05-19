@@ -38,17 +38,21 @@ node.js backend and a simple frontend form.
 
 ### How to run the project
 
-1. ** **
-2. Ensure the following file exist
-   - Dockerfile -> for building the docker image ##node.js## to run on docker containers
+1. Clone this repository (if you haven't already):
+2. 
+   ```bash
+   git clonegit@github.com:SabashiniRajamanohar/docker-3tier-demoapp.git
+   
+3. Ensure the following file exist
+   - Dockerfile -> for building the docker image **node.js** to run on docker containers
    - docker compose.yaml -> To define run all the services(node.js, MongoDB, Mongo Express) on Containers
 
-3. Run the following Command to build and start the containers.
+4. Run the following Command to build and start the containers.
    ```bash
    docker build -t node.js
    docker compose -f compose.yaml up 
 
-4. Ports Running:
+5. Ports Running:
    - node.js exposed on port  5050 (Backend Server)
    - MongoDB running on 27017 (Database for storing the user data)
    - Mongo Express running on 8081 (Web UI to view MongoDb collections)
@@ -68,7 +72,7 @@ Express at http://localhost:8081 , inside the database **demo-db** and collectio
 ### Stopping the Application ###
  To stop and remove all containers.
 
- ```
+ ```bash
  docker compose -f compose.yaml down
 
 ### Project Summary ###
