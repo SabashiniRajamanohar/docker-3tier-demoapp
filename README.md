@@ -64,16 +64,16 @@ node.js backend and a simple frontend form.
 
 ### How it works ###
 
-. The user fills out a profile form (email, usernmae, password).
-. On submission, the data is sent to the Node.js backend.
-. The backend stores the data in MongoDB.
-. You can view the stored data in MongoDB
-Express at http://localhost:8081 , inside the database **demo-db** and collection **infos**
+- The user fills out a profile form (email, usernmae, password).
+-  On submission, the data is sent to the Node.js backend.
+- The backend stores the data in MongoDB.
+- You can view the stored data in MongoDB
+- Express at http://localhost:8081 , inside the database **demo-db** and collection **infos**
 
 ### Volumes ###
 
-. A named volume (mongo-db) is created for MongoDB to persist data.
-. An additional Volume is ampped for /tmp in Mongo Express to avoild auto-created anonymous volumes
+-  A named volume (mongo-db) is created for MongoDB to persist data.
+-  An additional Volume is ampped for /tmp in Mongo Express to avoild auto-created anonymous volumes
 
 ### Stopping the Application ###
  To stop and remove all containers.
