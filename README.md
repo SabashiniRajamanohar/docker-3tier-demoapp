@@ -79,6 +79,8 @@ node.js backend and a simple frontend form.
  ```bash
  docker compose -f compose.yaml down
 
+ 
+---
 ### Project Summary ###
 
 This project is a containerized Node.js user registration form application that runs with Docker and Docker Compose. It includes three services: a Node.js backend(built from a custom docker file), a MongoDB database to store user data, and Mongo Express as a web-based MongoDB GUI. Docker Compose orchestrates these services, making it easy to run the full stack with one command. Users can submit their information through the form, which is saved in MongoDB and can be viewed in real-time using Mongo Express. This setup demonstrates how to develop and deploy a simple full stack app usinh Docker Containers
