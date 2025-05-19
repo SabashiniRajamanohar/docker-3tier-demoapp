@@ -32,7 +32,7 @@ node.js backend and a simple frontend form.
 ### Prerequisties
 
 - [Docker] (https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
+- [Docker Compose]  (https://docs.docker.com/compose/)
 
 ---
 
