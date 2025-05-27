@@ -49,7 +49,7 @@ node.js backend and a simple frontend form.
 
    ```
 3. Ensure the following file exist
-   - Dockerfile -> for building the docker image ##node.js## to run on docker containers
+   - Dockerfile -> for building the docker image ##node.js to run on docker containers
    - docker compose.yaml -> To define run all the services(node.js, MongoDB, Mongo Express) on Containers
 
 4. Run the following Command to build and start the containers.
