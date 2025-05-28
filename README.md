@@ -64,11 +64,10 @@ node.js backend and a simple frontend form.
 
 ### How it works ###
 
-- The user fills out a profile form (email, usernmae, password).
+- The user fills out a profile form (email, username, password).
 -  On submission, the data is sent to the Node.js backend.
 - The backend stores the data in MongoDB.
-- You can view the stored data in MongoDB
-- Express at http://localhost:8081 , inside the database **demo-db** and collection **infos**
+- You can view the stored data in Mongo Express at http://localhost:8081 , inside the database **demo-db** and collection **infos**
 
 ### Volumes ###
 
